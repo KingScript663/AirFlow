@@ -4332,7 +4332,7 @@ function Airflow:Init(config)
 		PText.Name = Airflow:RandomString()
 		PText.Parent = InputElement
 		PText.AnchorPoint = Vector2.new(0, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
+		PText.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -4341,7 +4341,7 @@ function Airflow:Init(config)
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name;
-		PText.TextColor3 = Color3.fromRGB(88, 131, 202)
+		PText.TextColor3 = Color3.fromRGB(216, 216, 216)
 		PText.TextSize = 13.000
 		PText.TextWrapped = true
 		PText.TextXAlignment = Enum.TextXAlignment.Left
@@ -4366,7 +4366,7 @@ function Airflow:Init(config)
 		ListElemants.Name = Airflow:RandomString()
 		ListElemants.Parent = TabElements;
 		ListElemants.AnchorPoint = Vector2.new(0.5, 0.5)
-		ListElemants.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+		ListElemants.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 		ListElemants.BackgroundTransparency = 1.000
 		ListElemants.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ListElemants.BorderSizePixel = 0
@@ -4610,7 +4610,7 @@ function Airflow:Init(config)
 			LabelFrame.Name = Airflow:RandomString()
 			LabelFrame.Parent = Section
 			LabelFrame.AnchorPoint = Vector2.new(0, 0.5)
-			LabelFrame.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
+			LabelFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 			LabelFrame.BackgroundTransparency = 1.000
 			LabelFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			LabelFrame.BorderSizePixel = 0
@@ -4619,7 +4619,7 @@ function Airflow:Init(config)
 			LabelFrame.ZIndex = 7
 			LabelFrame.Font = Enum.Font.GothamMedium
 			LabelFrame.Text = config.Name
-			LabelFrame.TextColor3 = Color3.fromRGB(88, 131, 202)
+			LabelFrame.TextColor3 = Color3.fromRGB(61, 61, 61)
 			LabelFrame.TextSize = 13.000
 			LabelFrame.TextWrapped = true
 			LabelFrame.TextXAlignment = Enum.TextXAlignment.Left
