@@ -1436,7 +1436,7 @@ do
 	Text.Name = Airflow:RandomString()
 	Text.Parent = Copy
 	Text.AnchorPoint = Vector2.new(0.5, 0.5)
-	Text.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
+	Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Text.BackgroundTransparency = 1.000
 	Text.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Text.BorderSizePixel = 0
@@ -1455,7 +1455,7 @@ do
 	Paste.AnchorPoint = Vector2.new(1, 1)
 	Paste.BackgroundColor3 = Color3.fromRGB(10, 10, 50)
 	Paste.BackgroundTransparency = 0.800
-	Paste.BorderColor3 = Color3.fromRGB(10, 10, 50)
+	Paste.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Paste.BorderSizePixel = 0
 	Paste.ClipsDescendants = true
 	Paste.Position = UDim2.new(1, -10, 1, -5)
@@ -1468,22 +1468,22 @@ do
 	Text_2.Name = Airflow:RandomString()
 	Text_2.Parent = Paste
 	Text_2.AnchorPoint = Vector2.new(0.5, 0.5)
-	Text_2.Background = Color3.fromRGB(88, 131, 202)
+	Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Text_2.BackgroundTransparency = 1.000
-	Text_2.BorderColor3 = Color3.fromRGB(88, 131, 202)
+	Text_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Text_2.BorderSizePixel = 0
 	Text_2.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Text_2.Size = UDim2.new(1, -20, 0, 20)
 	Text_2.ZIndex = 300
 	Text_2.Font = Enum.Font.GothamMedium
 	Text_2.Text = "Paste"
-	Text_2.TextColor3 = Color3.fromRGB(10, 10, 50)
+	Text_2.TextColor3 = Color3.fromRGB(88, 131, 202)
 	Text_2.TextSize = 14.000
 	Text_2.TextWrapped = true
 	Text_2.TextTransparency = 1;
 
 	Airflow.Features.ColorPickerToggle = false;
-	Airflow.Features.ColorDefault = Color3.fromRGB(88, 131, 202);
+	Airflow.Features.ColorDefault = Color3.fromRGB(255,255,255);
 	Airflow.Features.CopyColor =Airflow.Features.ColorDefault;
 	Airflow.Features.Callback = nil;
 
@@ -1803,7 +1803,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		LabelFrame.ZIndex = 7
 		LabelFrame.Font = Enum.Font.GothamMedium
 		LabelFrame.Text = name
-		LabelFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+		LabelFrame.TextColor3 = Color3.fromRGB(88, 131, 202)
 		LabelFrame.TextSize = 13.000
 		LabelFrame.TextWrapped = true
 		LabelFrame.TextXAlignment = Enum.TextXAlignment.Left
@@ -1875,7 +1875,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		ButtonFrame.Name = Airflow:RandomString()
 		ButtonFrame.Parent = element
-		ButtonFrame.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+		ButtonFrame.BackgroundColor3 = Color3.fromRGB(10, 10, 50)
 		ButtonFrame.BackgroundTransparency = 1
 		ButtonFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ButtonFrame.BorderSizePixel = 0
@@ -1898,7 +1898,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name
-		PText.TextColor3 = Color3.fromRGB(255, 255, 255)
+		PText.TextColor3 = Color3.fromRGB(88, 131, 202)
 		PText.TextSize = 14.000
 		PText.TextWrapped = true
 		PText.TextTransparency = 1
@@ -6128,7 +6128,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 
 			LoaderVersion.Name = "LoaderVersion"
 			LoaderVersion.Parent = ScrollingFrame
-			LoaderVersion.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+			LoaderVersion.BackgroundColor3 = Color3.fromRGB(10, 10, 50)
 			LoaderVersion.BackgroundTransparency = 1.000
 			LoaderVersion.BorderColor3 = Color3.fromRGB(255, 255, 255)
 			LoaderVersion.BorderSizePixel = 0
