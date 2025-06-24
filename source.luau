@@ -1269,7 +1269,7 @@ function Airflow:NewInput(frame : Frame , Callback : () -> ()) : TextButton
 end;
 
 function Airflow:Hover(element : Frame)
-	local Original = Color3.fromRGB(91, 91, 91);
+	local Original = Color3.fromRGB(10, 10, 50);
 	local Hover = Color3.fromRGB(144, 144, 144);
 
 	element.MouseEnter:Connect(function()
