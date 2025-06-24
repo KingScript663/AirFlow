@@ -1889,7 +1889,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.Name = Airflow:RandomString()
 		PText.Parent = ButtonFrame
 		PText.AnchorPoint = Vector2.new(0.5, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
+		PText.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -1898,7 +1898,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name
-		PText.TextColor3 = Color3.fromRGB(88, 131, 202)
+		PText.TextColor3 = Color3.fromRGB(61, 61, 61)
 		PText.TextSize = 14.000
 		PText.TextWrapped = true
 		PText.TextTransparency = 1
@@ -3628,7 +3628,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 					InputButton.Name = Airflow:RandomString()
 					InputButton.Parent = ScrollingFrame;
-					InputButton.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+					InputButton.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 					InputButton.BackgroundTransparency = 1.000
 					InputButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 					InputButton.BorderSizePixel = 0
@@ -3636,7 +3636,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 					InputButton.ZIndex = 105
 					InputButton.Font = Enum.Font.GothamMedium
 					InputButton.Text = string.rep(" ",2)..tostring(v)
-					InputButton.TextColor3 = Color3.fromRGB(61, 61, 61)
+					InputButton.TextColor3 = Color3.fromRGB(88, 131, 202)
 					InputButton.TextSize = 14.000
 					InputButton.TextTransparency = 0.5
 					InputButton.TextXAlignment = Enum.TextXAlignment.Left
