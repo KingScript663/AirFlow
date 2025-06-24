@@ -3251,7 +3251,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		ParagraphFrame.Name = Airflow:RandomString()
 		ParagraphFrame.Parent = element
-		ParagraphFrame.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+		ParagraphFrame.BackgroundColor3 = Color3.fromRGB(10, 10, 50)
 		ParagraphFrame.BackgroundTransparency = 1
 		ParagraphFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ParagraphFrame.BorderSizePixel = 0
@@ -3264,7 +3264,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		PText.Name = Airflow:RandomString()
 		PText.Parent = ParagraphFrame
-		PText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		PText.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -3273,7 +3273,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name
-		PText.TextColor3 = Color3.fromRGB(255, 255, 255)
+		PText.TextColor3 = Color3.fromRGB(88, 131, 202)
 		PText.TextSize = 13.000
 		PText.TextTransparency = 1
 		PText.TextWrapped = true
@@ -3281,7 +3281,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		SText.Name = Airflow:RandomString()
 		SText.Parent = ParagraphFrame
-		SText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		SText.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 		SText.BackgroundTransparency = 1.000
 		SText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		SText.BorderSizePixel = 0
@@ -3290,7 +3290,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		SText.ZIndex = 7
 		SText.Font = Enum.Font.GothamMedium
 		SText.Text = config.Content or "";
-		SText.TextColor3 = Color3.fromRGB(255, 255, 255)
+		SText.TextColor3 = Color3.fromRGB(88, 131, 202)
 		SText.TextSize = 11.000
 		SText.TextTransparency = 1
 		SText.TextWrapped = true
