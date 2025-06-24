@@ -4332,7 +4332,7 @@ function Airflow:Init(config)
 		PText.Name = Airflow:RandomString()
 		PText.Parent = InputElement
 		PText.AnchorPoint = Vector2.new(0, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+		PText.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -4341,7 +4341,7 @@ function Airflow:Init(config)
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name;
-		PText.TextColor3 = Color3.fromRGB(61, 61, 61)
+		PText.TextColor3 = Color3.fromRGB(88, 131, 202)
 		PText.TextSize = 13.000
 		PText.TextWrapped = true
 		PText.TextXAlignment = Enum.TextXAlignment.Left
@@ -4430,7 +4430,7 @@ function Airflow:Init(config)
 
 		DisabledText.Parent = ListElemants
 		DisabledText.AnchorPoint = Vector2.new(0.5, 0.5)
-		DisabledText.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
+		DisabledText.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 		DisabledText.BackgroundTransparency = 1.000
 		DisabledText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		DisabledText.BorderSizePixel = 0
@@ -4439,7 +4439,7 @@ function Airflow:Init(config)
 		DisabledText.ZIndex = 5
 		DisabledText.Font = Enum.Font.GothamMedium
 		DisabledText.Text = ""
-		DisabledText.TextColor3 = Color3.fromRGB(88, 131, 202)
+		DisabledText.TextColor3 = Color3.fromRGB(61, 61, 61)
 		DisabledText.TextSize = 15.000
 		DisabledText.TextTransparency = 1
 		DisabledText.TextWrapped = true
