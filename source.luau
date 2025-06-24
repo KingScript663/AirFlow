@@ -2066,7 +2066,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 				});
 			else
 				Airflow:CreateAnimation(circle,0.5,nil,{
-					BackgroundColor3 = Color3.fromRGB(216, 216, 216),
+					BackgroundColor3 = Color3.fromRGB(61, 61, 61),
 					Position = UDim2.new(0.25, 0, 0.5, 0)
 				});
 			end;
