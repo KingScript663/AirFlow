@@ -1436,7 +1436,7 @@ do
 	Text.Name = Airflow:RandomString()
 	Text.Parent = Copy
 	Text.AnchorPoint = Vector2.new(0.5, 0.5)
-	Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Text.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 	Text.BackgroundTransparency = 1.000
 	Text.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Text.BorderSizePixel = 0
@@ -1468,7 +1468,7 @@ do
 	Text_2.Name = Airflow:RandomString()
 	Text_2.Parent = Paste
 	Text_2.AnchorPoint = Vector2.new(0.5, 0.5)
-	Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Text_2.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 	Text_2.BackgroundTransparency = 1.000
 	Text_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Text_2.BorderSizePixel = 0
@@ -1794,7 +1794,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		LabelFrame.Name = Airflow:RandomString()
 		LabelFrame.Parent = element
 		LabelFrame.AnchorPoint = Vector2.new(0, 0.5)
-		LabelFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		LabelFrame.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 		LabelFrame.BackgroundTransparency = 1.000
 		LabelFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		LabelFrame.BorderSizePixel = 0
@@ -1889,7 +1889,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.Name = Airflow:RandomString()
 		PText.Parent = ButtonFrame
 		PText.AnchorPoint = Vector2.new(0.5, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		PText.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
