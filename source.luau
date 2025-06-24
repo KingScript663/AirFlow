@@ -4239,20 +4239,20 @@ function Airflow:Init(config)
 
 	windowName.Name = Airflow:RandomString()
 	windowName.Parent = Headers
-	windowName.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
+	windowName.BackgroundColor3 = Color3.fromRGB(10, 10, 50)
 	windowName.BackgroundTransparency = 1.000
 	windowName.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	windowName.BorderSizePixel = 0
 	windowName.Size = UDim2.new(0, 50, 0, 20)
 	windowName.Font = Enum.Font.GothamMedium
 	windowName.Text = config.Name;
-	windowName.TextColor3 = Color3.fromRGB(88, 131, 202)
+	windowName.TextColor3 = Color3.fromRGB(10, 10, 50)
 	windowName.TextSize = 15.000
 	windowName.TextTransparency = 1
 
 	static.Name = Airflow:RandomString()
 	static.Parent = WindowFrame
-	static.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
+	static.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 	static.BackgroundTransparency = 1.000
 	static.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	static.BorderSizePixel = 0
