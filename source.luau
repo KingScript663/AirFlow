@@ -1998,7 +1998,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.Name = Airflow:RandomString()
 		PText.Parent = ToggleFrame
 		PText.AnchorPoint = Vector2.new(0, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
+		PText.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -2007,7 +2007,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name;
-		PText.TextColor3 = Color3.fromRGB(88, 131, 202)
+		PText.TextColor3 = Color3.fromRGB(61, 61, 61)
 		PText.TextSize = 13.000
 		PText.TextTransparency = 1
 		PText.TextWrapped = true
@@ -4332,7 +4332,7 @@ function Airflow:Init(config)
 		PText.Name = Airflow:RandomString()
 		PText.Parent = InputElement
 		PText.AnchorPoint = Vector2.new(0, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
+		PText.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -4341,7 +4341,7 @@ function Airflow:Init(config)
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name;
-		PText.TextColor3 = Color3.fromRGB(216, 216, 216)
+		PText.TextColor3 = Color3.fromRGB(88, 131, 202)
 		PText.TextSize = 13.000
 		PText.TextWrapped = true
 		PText.TextXAlignment = Enum.TextXAlignment.Left
@@ -4610,7 +4610,7 @@ function Airflow:Init(config)
 			LabelFrame.Name = Airflow:RandomString()
 			LabelFrame.Parent = Section
 			LabelFrame.AnchorPoint = Vector2.new(0, 0.5)
-			LabelFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+			LabelFrame.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 			LabelFrame.BackgroundTransparency = 1.000
 			LabelFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			LabelFrame.BorderSizePixel = 0
@@ -4619,7 +4619,7 @@ function Airflow:Init(config)
 			LabelFrame.ZIndex = 7
 			LabelFrame.Font = Enum.Font.GothamMedium
 			LabelFrame.Text = config.Name
-			LabelFrame.TextColor3 = Color3.fromRGB(61, 61, 61)
+			LabelFrame.TextColor3 = Color3.fromRGB(88, 131, 202)
 			LabelFrame.TextSize = 13.000
 			LabelFrame.TextWrapped = true
 			LabelFrame.TextXAlignment = Enum.TextXAlignment.Left
