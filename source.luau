@@ -3628,7 +3628,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 					InputButton.Name = Airflow:RandomString()
 					InputButton.Parent = ScrollingFrame;
-					InputButton.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
+					InputButton.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 					InputButton.BackgroundTransparency = 1.000
 					InputButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 					InputButton.BorderSizePixel = 0
@@ -3636,7 +3636,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 					InputButton.ZIndex = 105
 					InputButton.Font = Enum.Font.GothamMedium
 					InputButton.Text = string.rep(" ",2)..tostring(v)
-					InputButton.TextColor3 = Color3.fromRGB(88, 131, 202)
+					InputButton.TextColor3 = Color3.fromRGB(61, 61, 61)
 					InputButton.TextSize = 14.000
 					InputButton.TextTransparency = 0.5
 					InputButton.TextXAlignment = Enum.TextXAlignment.Left
