@@ -4239,14 +4239,14 @@ function Airflow:Init(config)
 
 	windowName.Name = Airflow:RandomString()
 	windowName.Parent = Headers
-	windowName.BackgroundColor3 = Color3.fromRGB(10, 10, 50)
+	windowName.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 	windowName.BackgroundTransparency = 1.000
 	windowName.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	windowName.BorderSizePixel = 0
 	windowName.Size = UDim2.new(0, 50, 0, 20)
 	windowName.Font = Enum.Font.GothamMedium
 	windowName.Text = config.Name;
-	windowName.TextColor3 = Color3.fromRGB(10, 10, 50)
+	windowName.TextColor3 = Color3.fromRGB(88, 131, 202)
 	windowName.TextSize = 15.000
 	windowName.TextTransparency = 1
 
@@ -4366,7 +4366,7 @@ function Airflow:Init(config)
 		ListElemants.Name = Airflow:RandomString()
 		ListElemants.Parent = TabElements;
 		ListElemants.AnchorPoint = Vector2.new(0.5, 0.5)
-		ListElemants.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
+		ListElemants.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 		ListElemants.BackgroundTransparency = 1.000
 		ListElemants.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ListElemants.BorderSizePixel = 0
