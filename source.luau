@@ -1355,7 +1355,7 @@ do
 
 	mouse.Name = Airflow:RandomString()
 	mouse.Parent = ColorPick
-	mouse.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	mouse.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 	mouse.BackgroundTransparency = 1.000
 	mouse.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	mouse.BorderSizePixel = 0
@@ -1369,7 +1369,7 @@ do
 	ColorSelect.Name = Airflow:RandomString()
 	ColorSelect.Parent = ColorPicker
 	ColorSelect.AnchorPoint = Vector2.new(1, 0)
-	ColorSelect.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ColorSelect.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 	ColorSelect.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	ColorSelect.BorderSizePixel = 0
 	ColorSelect.Position = UDim2.new(1, -10, 0, 10)
@@ -1388,7 +1388,7 @@ do
 	move.Name = Airflow:RandomString()
 	move.Parent = ColorSelect
 	move.AnchorPoint = Vector2.new(0.5, 0)
-	move.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	move.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 	move.BackgroundTransparency = 1.000
 	move.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	move.BorderSizePixel = 0
