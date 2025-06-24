@@ -1399,7 +1399,7 @@ do
 	left.Name = Airflow:RandomString()
 	left.Parent = move
 	left.AnchorPoint = Vector2.new(0, 0.5)
-	left.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	left.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 	left.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	left.BorderSizePixel = 0
 	left.Position = UDim2.new(0, 0, 0.5, 0)
@@ -1410,7 +1410,7 @@ do
 	right.Name = Airflow:RandomString()
 	right.Parent = move
 	right.AnchorPoint = Vector2.new(1, 0.5)
-	right.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	right.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 	right.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	right.BorderSizePixel = 0
 	right.Position = UDim2.new(1, 0, 0.5, 0)
@@ -1483,7 +1483,7 @@ do
 	Text_2.TextTransparency = 1;
 
 	Airflow.Features.ColorPickerToggle = false;
-	Airflow.Features.ColorDefault = Color3.fromRGB(255,255,255);
+	Airflow.Features.ColorDefault = Color3.fromRGB(88, 131, 202);
 	Airflow.Features.CopyColor =Airflow.Features.ColorDefault;
 	Airflow.Features.Callback = nil;
 
