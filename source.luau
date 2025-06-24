@@ -1421,7 +1421,7 @@ do
 	Copy.Name = Airflow:RandomString()
 	Copy.Parent = ColorPicker
 	Copy.AnchorPoint = Vector2.new(0, 1)
-	Copy.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+	Copy.BackgroundColor3 = Color3.fromRGB(10, 10, 50)
 	Copy.BackgroundTransparency = 0.800
 	Copy.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Copy.BorderSizePixel = 0
