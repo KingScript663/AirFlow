@@ -1453,7 +1453,7 @@ do
 	Paste.Name = Airflow:RandomString()
 	Paste.Parent = ColorPicker
 	Paste.AnchorPoint = Vector2.new(1, 1)
-	Paste.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+	Paste.BackgroundColor3 = Color3.fromRGB(10, 10, 50)
 	Paste.BackgroundTransparency = 0.800
 	Paste.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Paste.BorderSizePixel = 0
