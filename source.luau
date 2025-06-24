@@ -1270,7 +1270,7 @@ end;
 
 function Airflow:Hover(element : Frame)
 	local Original = Color3.fromRGB(10, 10, 50);
-	local Hover = Color3.fromRGB(144, 144, 144);
+	local Hover = Color3.fromRGB(10, 10, 50);
 
 	element.MouseEnter:Connect(function()
 		Airflow:CreateAnimation(element,0.35,nil,{
@@ -1436,7 +1436,7 @@ do
 	Text.Name = Airflow:RandomString()
 	Text.Parent = Copy
 	Text.AnchorPoint = Vector2.new(0.5, 0.5)
-	Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Text.BackgroundColor3 = Color3.fromRGB(88, 131, 202)
 	Text.BackgroundTransparency = 1.000
 	Text.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Text.BorderSizePixel = 0
@@ -1445,7 +1445,7 @@ do
 	Text.ZIndex = 300
 	Text.Font = Enum.Font.GothamMedium
 	Text.Text = "Copy"
-	Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Text.TextColor3 = Color3.fromRGB(88, 131, 202)
 	Text.TextSize = 14.000
 	Text.TextWrapped = true
 	Text.TextTransparency = 1;
@@ -1455,7 +1455,7 @@ do
 	Paste.AnchorPoint = Vector2.new(1, 1)
 	Paste.BackgroundColor3 = Color3.fromRGB(10, 10, 50)
 	Paste.BackgroundTransparency = 0.800
-	Paste.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Paste.BorderColor3 = Color3.fromRGB(10, 10, 50)
 	Paste.BorderSizePixel = 0
 	Paste.ClipsDescendants = true
 	Paste.Position = UDim2.new(1, -10, 1, -5)
@@ -1468,22 +1468,22 @@ do
 	Text_2.Name = Airflow:RandomString()
 	Text_2.Parent = Paste
 	Text_2.AnchorPoint = Vector2.new(0.5, 0.5)
-	Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Text_2.Background = Color3.fromRGB(88, 131, 202)
 	Text_2.BackgroundTransparency = 1.000
-	Text_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Text_2.BorderColor3 = Color3.fromRGB(88, 131, 202)
 	Text_2.BorderSizePixel = 0
 	Text_2.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Text_2.Size = UDim2.new(1, -20, 0, 20)
 	Text_2.ZIndex = 300
 	Text_2.Font = Enum.Font.GothamMedium
 	Text_2.Text = "Paste"
-	Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Text_2.TextColor3 = Color3.fromRGB(10, 10, 50)
 	Text_2.TextSize = 14.000
 	Text_2.TextWrapped = true
 	Text_2.TextTransparency = 1;
 
 	Airflow.Features.ColorPickerToggle = false;
-	Airflow.Features.ColorDefault = Color3.fromRGB(255,255,255);
+	Airflow.Features.ColorDefault = Color3.fromRGB(88, 131, 202);
 	Airflow.Features.CopyColor =Airflow.Features.ColorDefault;
 	Airflow.Features.Callback = nil;
 
