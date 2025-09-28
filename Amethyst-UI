@@ -1105,7 +1105,7 @@ function Library:create_ui()
             Circle.Name = 'Circle'
             Circle.Size = UDim2.new(0, 12, 0, 12)
             Circle.BorderSizePixel = 0
-            Circle.BackgroundColor3 = Color3.fromRGB(66, 80, 115)
+            Circle.BackgroundColor3 = Color3.fromRGB(80, 58, 95)
             Circle.Parent = Toggle
             
             local UICorner = Instance.new('UICorner')
@@ -1209,7 +1209,7 @@ function Library:create_ui()
                     }):Play()
 
                     TweenService:Create(Circle, TweenInfo.new(0.5, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {
-                        BackgroundColor3 = Color3.fromRGB(66, 80, 115),
+                        BackgroundColor3 = Color3.fromRGB(80, 58, 95),
                         Position = UDim2.fromScale(0, 0.5)
                     }):Play()
                 end
